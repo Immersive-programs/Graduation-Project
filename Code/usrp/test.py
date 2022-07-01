@@ -3,7 +3,7 @@ import utime
 import uasyncio
 from machine import Pin, PWM
 PWM = PWM(Pin(16))
-PWM.freq(2000)
+PWM.freq(10)
 
 class mainloader:
 
